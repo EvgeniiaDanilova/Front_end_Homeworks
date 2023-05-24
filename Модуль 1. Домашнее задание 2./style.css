@@ -1,0 +1,22 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, td, th {
+    border: 2px solid black;
+}
+table,ul{
+    border-collapse: collapse;
+    margin-left: 120px;
+}
+h1,h2{
+    margin-left: 100px;
+}
+.laptop-table{
+    margin-top: 50px;
+}
+img{
+    height: 28px;
+    width: 45px;
+}
