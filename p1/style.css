@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    background-color: green;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.block-1 {
+    justify-content: center;
+}
+.block-2 {
+    justify-content: space-between;
+}
+.block-3 {
+    flex-wrap: wrap;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 20px;
+}
+.item1 {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+}
