@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item {
+    width: 200px;
+    height: 200px;
+}
+.item-1 {
+position: absolute;
+background-color: red;
+z-index: -1;
+}
+.item-2 {
+    position: fixed;
+    background-color: green;
+    left: 40px;
+    top: 40px;
+    transition: 3s;
+    
+  
+}
+
+.item-3 {
+    background-color: blue;
+    position: absolute;
+    left: -40px;
+    top: 80px;
+    margin-left: 150px;
+    z-index: -2;
+}
+.item-2:hover {
+    transform: scale(1.1) rotate(-45deg);
+}
